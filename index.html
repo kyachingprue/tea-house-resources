@@ -4,32 +4,131 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>tea house resources</title>
-  <!-- Font family -->
+  <title>Tea House resources</title>
+  <!-- Google Fonts CMD -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <!-- Font awesome cmd-->
-  <script src="https://kit.fontawesome.com/c61f0f2e0c.js" crossorigin="anonymous"></script>
-  <!-- Tailwind css cmd -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!-- Font Awesome CMD -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Tailwind CSS CMD -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Tailwind script CMD -->
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
             clifford: '#da373d',
+
           }
         }
       }
     }
   </script>
+  <!-- Stylesheet CMD -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <style>
+    .font-family {
+      font-family: "Manrope", sans-serif;
+    }
+  </style>
 </head>
 
-<body>
-  <h2>This is tailwind website</h2>
+<body class="font-family">
+  <!-- Header section -->
+  <header>
+    <div class="bg-orange-100 container mx-auto">
+      <div class="flex justify-between items-center w-4/5 mx-auto">
+        <div>
+          <h1 class="text-black font-bold text-7xl mt-10">It's good <br>
+            tea time at The <br> Tea House</h1>
+          <p class="text-2xl text-gray-500 mt-7">Tea and Botanical Solutions Supplier Give Optimum <br>
+            Satisfaction To Your
+            Taste
+            Buds.</p>
+          <button class="bg-gradient-to-r from-orange-400 to-red-500 px-4 py-3 rounded-lg mt-7 mb-8"><a
+              class="font-bold text-white text-base" href="">Explore More <i
+                class="fa-solid fa-arrow-right -rotate-45 ml-2 text-white"></i></a></button>
+        </div>
+        <div class="relative mt-6 mb-8">
+          <div class="border border-black mt-5 mb-5">
+            <img src="images/banner.png" alt="Banner image property">
+          </div>
+          <div
+            class="bg-white rounded-lg w-5/12 px-4 py-5 flex justify-center items-center absolute top-[400px] left-[80px] ">
+            <div>
+              <i class="fa-solid fa-star mr-3 text-yellow-300 text-2xl"></i>
+            </div>
+            <div>
+              <h4 class="font-bold text-2xl text-black">5.00</h4>
+              <p class="text-sm text-gray-400 mt-5">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Main section -->
+  <main>
+    <!-- Our Featured Products section -->
+    <div class="bg-orange-50">
+      <div class=" mx-auto w-4/5 ">
+        <div class="text-center w-4/5 container mx-auto">
+          <h3 class="font-bold text-black text-4xl mb-5">Our Featured Products</h3>
+          <p class="text-xl text-gray-400">There are many variations of passages of Lorem Ipsum available, but the
+            majority have suffered alteration in some form,
+            by injected humour, or randomised words which don't look even slightly believable.</p>
+        </div>
+        <div class="grid grid-cols-4 mt-10 gap-6">
+          <div class="bg-gradient-to-t to-slate-300 from-white rounded-lg mb-9">
+            <div class="my-5">
+              <img class="mx-auto" src="images/tea-1.png" alt="">
+            </div>
+            <div class="text-center">
+              <h4 class="font-bold text-xl text-black my-3">Milk Tea</h4>
+              <p class="text-base text-gray-400 mb-5">Creamer could be <br> replaced by fresh milk</p>
+            </div>
+          </div>
+          <div class="bg-gradient-to-t to-slate-300 from-white rounded-lg mb-9">
+            <div class="my-5">
+              <img class="mx-auto" src="images/tea-2.png" alt="">
+            </div>
+            <div class="text-center">
+              <h4 class="font-bold text-xl text-black my-3">Black Tea</h4>
+              <p class="text-base text-gray-400 mb-5">Creamer could be <br> replaced by fresh milk</p>
+            </div>
+          </div>
+          <div class="bg-gradient-to-t to-slate-300 from-white rounded-lg mb-9">
+            <div class="my-5">
+              <img class="mx-auto" src="images/tea-3.png" alt="">
+            </div>
+            <div class="text-center">
+              <h4 class="font-bold text-xl text-black my-3">Lemon Tea</h4>
+              <p class="text-base text-gray-400 mb-5">Creamer could be <br> replaced by fresh milk</p>
+            </div>
+          </div>
+          <div class="bg-gradient-to-t to-slate-300 from-white rounded-lg mb-9">
+            <div class="my-5">
+              <img class="mx-auto" src="images/tea-4.png" alt="">
+            </div>
+            <div class="text-center">
+              <h4 class="font-bold text-xl text-black my-3">Green Tea</h4>
+              <p class="text-base text-gray-400 mb-5">Creamer could be <br> replaced by fresh milk</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Footer section -->
+  <footer>
+
+  </footer>
 </body>
 
 </html>
